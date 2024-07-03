@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(160deg, #09203F, #F5F5DC);
+    padding: 10px;
+}
+
+.form{
+    width: 50%;
+    background: #fff;
+    padding: 160px 550px 45px;
+    margin: 40px auto;
+    border-radius: 25px;
+    max-width: 600px
+}
+
+.form h3{
+    display: flex;
+    color: crimson;
+    align-items: center;
+    margin-top: -120px;
+    margin-bottom: 40px;
+    margin-left: -355px;
+    font-size: xx-large;
+}
+
+.fcontainer{
+    margin-left: -420px;
+}
+
+.input{
+    width: 65%;
+    height: 38px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-weight: 14px;
+    font-size: medium;
+    border: 1.567px solid black;
+    outline-color: #0f52ba;
+}
+
+.required-field::before{
+    content: "*";
+    color: red;
+}
+
+.registering{
+    margin-top: -450px;
+    width: 480px;
+    height: 480px;
+    margin-top: -780px;
+}
+
+.register{
+    width: 90px;
+    height: 50px;
+    border: 1.567px solid white;
+    border-radius: 20px;
+    background: #FF9F00;
+    margin-left: -50px;
+    font-size: small;
+    font-weight: 15px;
+}
+
+.error-message {
+    color: red; 
+    font-family: Arial, sans-serif; 
+    font-size: 13px; 
+    margin-top: -15px;
+    margin-bottom: 15px; 
+}
+
+#fname-error, #email-error, #password-error, #cpass-error {
+    display: block; 
+    position: relative; 
+    left: 5px;
+}
